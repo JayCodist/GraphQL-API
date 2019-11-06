@@ -1,11 +1,15 @@
 {
   "name": "hackernews",
   "version": "1.0.0",
-  "description": "",
+  "description": "graphQL api for hackernews clone",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
+  },
+  "engines": {
+    "node": "^10",
+    "npm": "^6"
   },
   "keywords": [],
   "author": "",
