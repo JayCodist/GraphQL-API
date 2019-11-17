@@ -23,4 +23,4 @@ const feed = async (parent, args, context, info) =>
 
 const link = async (parent, {id}, context, info) => await context.prisma.link({id});
 
-module.exports = {feed, link};
+module.exports = {feed, link, info};
