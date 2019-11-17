@@ -1,4 +1,4 @@
-const info = () => "This is the API of a Hackernews clone";
+const info = () => "This is the API of a Hackernews clone using GraphQL, Prisma and Express. Check the Docs/Schema for how to use. Have fun!";
 
 const feed = async (parent, args, context, info) => 
 {
