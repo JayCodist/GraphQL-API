@@ -19,5 +19,11 @@ const server = new GraphQLServer(
 
 //server.start(() => console.log(`server started on http://localhost:4000`));
 
+exports.handler = function(event, context, callback) {
+    callback(null, {
+    statusCode: 200,
+    body: "Hello, World"
+    });
+}
 
-exports.handler = () => server.start(() => console.log(`server started on http://localhost:4000`));
+//exports.handler = () => server.start(() => console.log(`server started on http://localhost:4000`));
