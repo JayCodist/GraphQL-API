@@ -17,4 +17,7 @@ const server = new GraphQLServer(
 		context: request => { return {...request, prisma} }, 
 	});
 
-server.start(() => console.log(`server started on http://localhost:4000`));
+//server.start(() => console.log(`server started on http://localhost:4000`));
+
+
+exports.handler = () => server.start(() => console.log(`server started on http://localhost:4000`));
